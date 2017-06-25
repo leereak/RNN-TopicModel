@@ -8,19 +8,19 @@ The network is composed of three sub-networks: <br />
 Training is performed in a pipeline. We first train the word level model, then then sentence level model, and finally the document level model. <br />
 Inference is performed by chaining these models and outputting a distribution of all possible topics. <br /> 
 
-** Completed **
-Vocab builder
-Basic data reader
-Hierarchial RNN Topic Model
-LSTM Topic Model
-Train loop for each sub-network
+** Completed ** <br />
+Vocab builder <br />
+Basic data reader <br />
+Hierarchial RNN Topic Model<br />
+LSTM Topic Model <br />
+Train loop for each sub-network <br /> <br /> 
 
 
-** To Do **
-Unit Test HTM, reader, main modules
-Write training loop for entire HTM
-Write validation loop for HTM subnetworks
-Create training, val, and testing data
-Train Network
-Test Network
+** To Do ** <br />
+Unit Test HTM, reader, main modules<br />
+Write training loop for entire HTM <br />
+Write validation loop for HTM subnetworks<br />
+Create training, val, and testing data <br />
+Train Network <br />
+Test Network <br />
 
